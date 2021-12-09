@@ -1,0 +1,29 @@
+.movie-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  min-height: 100vh;
+
+  &__image {
+    img {
+      max-width: 500px;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    flex: 1;
+    padding: 20px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+
+      &__rating {
+        color: #ffcc00;
+      }
+    }
+  }
+}

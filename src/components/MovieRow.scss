@@ -1,0 +1,16 @@
+.movie-row {
+  width: 100%;
+
+  &__title {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__list {
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+}
